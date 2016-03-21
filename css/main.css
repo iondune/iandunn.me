@@ -49,5 +49,5 @@ h2 {
 
 .popup {
   display: none;
-  width: 500px;
+  max-width: 500px;
 }
