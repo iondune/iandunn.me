@@ -1,0 +1,53 @@
+
+body {
+  background-color: #efefef;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  text-align: center;
+}
+
+.lead {
+  font-size: 1.2em;
+}
+
+.blue {
+  background-color: #0084ff;
+}
+
+.square {
+  width: 16px;
+  height: 16px;
+
+  display: inline-block;
+  position: relative;
+  bottom: 0.2em;
+}
+
+.rule {
+  width: 120px;
+  height: 5px;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+.project {
+  background-color: grey;
+  margin-bottom: 4%;
+}
+
+.project > a > img {
+  width: 100%;
+}
+
+.popup {
+  display: none;
+  width: 500px;
+}
