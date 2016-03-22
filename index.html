@@ -24,6 +24,7 @@
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -55,30 +56,68 @@
 
     <div class="row">
       <div class="project one-third column">
-        <a href="#ionEngine" class="fancybox"><img src="projects/ionEngine.jpg"></a>
+        <a href="#ionEngine" class="fancybox">
+          <img src="projects/ionEngine.jpg">
+          <span class="caption">ionEngine</span>
+        </a>
         <div id="ionEngine" class="popup">
+          <h2>ionEngine</h2>
           <p>
             ionEngine is an OpenGL rendering engine and application framework that I use as the basis for nearly all of my other projects.
             It's open source! You can read more about it at <a href="http://www.ionengine.io/">www.ionengine.io</a>.
           </p>
-        </div>
-      </div>
-      <div class="project one-third column">
-        <a href="#Alluvial" class="fancybox"><img src="projects/Alluvial.jpg"></a>
-        <div id="Alluvial" class="popup">
           <p>
-            Alluvial is an open-world adventure game using procedurally generated content.
-            Find out more at <a href="http://www.alluvialgame.com/">www.alluvialgame.com</a>.
+            <a class="button" href="https://bitbucket.org/iondune/ionengine"><i class="fa fa-bitbucket fa-lg"></i> Check out the source!</a>
+            <a class="button" href="https://github.com/iondune/ionEngine"><i class="fa fa-github fa-lg"></i> Check out the source!</a>
           </p>
         </div>
       </div>
       <div class="project one-third column">
-        <a href="#dx12" class="fancybox"><img src="projects/dx12.jpg"></a>
+        <a href="#Alluvial" class="fancybox">
+          <img src="projects/Alluvial.jpg">
+          <span class="caption">Alluvial</span>
+        </a>
+        <div id="Alluvial" class="popup">
+          <h2>Alluvial</h2>
+          <p>
+            Alluvial is an open-world adventure game using procedurally generated content.
+            You can read more about the game at <a href="http://www.alluvialgame.com/">www.alluvialgame.com</a>
+            and more about the development effort at <a href="http://www.alluvialengine.com/">www.alluvialengine.com</a>.
+          </p>
+        </div>
+      </div>
+      <div class="project one-third column">
+        <a href="#dx12" class="fancybox">
+          <img src="projects/dx12.jpg">
+        </a>
         <div id="dx12" class="popup">
+          <h2>DirectX 12</h2>
           <p>
             At Microsoft from June to December of 2015, I worked as a software engineer intern on the DirectX 12 team.
             My project involved building a tool to help developers add multi-gpu support to existing graphics engines (including heterogenous hardware support).
           </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="project one-third column">
+        <a href="#Mandelbrot" class="fancybox">
+          <img src="projects/mandelbrot.jpg">
+          <span class="caption">Mandelbrot</span>
+        </a>
+        <div id="Mandelbrot" class="popup">
+          <h2>Mandelbrot Renderer</h2>
+          <p>
+            Using CUDA and OpenMPI, I wrote a Madelbrot fractal renderer to run on GPU-accelerated clusters.
+            Using a network of 27 workstations, I was able to produce the below video by rendering each frame individually with super-sample anti-aliasing and smooth coloring.
+          </p>
+          <p>
+            <a class="button" href="https://bitbucket.org/iondune/fractalrenderer"><i class="fa fa-bitbucket fa-lg"></i> Check out the source!</a>
+          </p>
+          <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/RsLO87HzuRQ?rel=0" frameborder="0" allowfullscreen></iframe>
+          </div>
         </div>
       </div>
     </div>
