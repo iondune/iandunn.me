@@ -59,12 +59,29 @@ h2 {
   color: white;
   font-size: 2em;
   font-weight: bold;
+  white-space: nowrap;
 
   padding-left: 10px;
   padding-right: 10px;
 
   background: rgb(0, 0, 0); /* fallback color */
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.tag {
+  position: absolute;
+  bottom: 15px;
+  left: 10px;
+  color: white;
+  font-size: 0.8em;
+  font-weight: bold;
+  white-space: nowrap;
+
+  padding-left: 5px;
+  padding-right: 5px;
+
+  background: rgb(0, 0, 0); /* fallback color */
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .video-container {
