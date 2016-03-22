@@ -11,6 +11,13 @@ h2 {
   text-align: center;
 }
 
+a {
+  color: #0084ff;
+}
+a:hover {
+  color: #2eb82e;
+}
+
 .lead {
   font-size: 1.2em;
 }
