@@ -35,6 +35,34 @@ a:hover {
   bottom: 0.2em;
 }
 
+.mini-rule {
+   width: 100%;
+   border-bottom: 2px solid #0084ff;
+   line-height: 0.1em;
+   margin: 10px 0 20px;
+}
+
+.mini-rule span {
+  margin-left: 20px;
+  background: #fff;
+  padding: 0 10px;
+}
+
+.date-line {
+  margin-bottom: 0; /* remove spacing below  */
+  text-align: right;
+  color: #5d7082;
+  font-style: italic;
+
+  /* adjust updwards */
+  position: relative;
+  bottom: 5px;
+}
+
+.spacer {
+  padding-bottom: 20px;
+}
+
 .rule {
   width: 120px;
   height: 5px;
